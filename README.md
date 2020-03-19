@@ -1,7 +1,3 @@
-# Simple GO Lang REST API
-
-> Simple RESTful API to create, read, update and delete books. No database implementation yet
-
 ## Quick Start
 
 ```bash
@@ -39,23 +35,10 @@ DELETE api/books/{id}
 ```bash
 POST api/books
 
-# Request sample
-# {
-#   "isbn":"4545454",
-#   "title":"Book Three",
-#   "author":{"firstname":"Harry",  "lastname":"White"}
-# }
 ```
 
 ### Update Book
 
 ```bash
 PUT api/books/{id}
-
-# Request sample
-# {
-#   "isbn":"4545454",
-#   "title":"Updated Title",
-#   "author":{"firstname":"Harry",  "lastname":"White"}
-# }
 ```
